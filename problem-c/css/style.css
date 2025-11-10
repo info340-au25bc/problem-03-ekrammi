@@ -1,4 +1,44 @@
 body {
   font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
   margin: 0;
+  flex-direction: column;
+  min-height: 100%;
+  height: inherit;
 }
+
+main {
+  flex: 1;
+
+}
+
+.col-left{
+  flex: 0 1 240px;
+
+}
+
+.col {
+  padding: 1em;
+}
+
+.col-center {
+  flex: 1 1 0;
+  background-color: #eee;
+
+}
+
+.col-right{
+  flex-basis: 180px;
+  flex-grow: 0;
+  flex-shrink: 0;
+
+}
+
+.card {
+  flex: 0 0 250px;
+  background: #fff;
+  margin: 0.5rem;
+  border-radius: 10px;
+  box-shadow : 0 1px 3px rgba(0,0,0,0.16), 0 1px 3px rgba(0,0,0,0.23);
+
+}
+
