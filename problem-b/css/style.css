@@ -1,5 +1,4 @@
 /* your CSS goes here */
-
 body {
     box-sizing: border-box;
     margin: 0;
@@ -16,6 +15,7 @@ h1 {
 
     
 }
+
 h2{
     font-size: 2rem;
 }
@@ -76,16 +76,16 @@ nav a:hover, nav a:focus, nav a:active {
 header{
     color: white;
     background-image:url("../img/paul-gilmore-145802-unsplash.jpg");
-    padding: 6rem 0 1rem;
+    padding: 6rem  1rem;
     background-size: cover;
     background-position: center;
     background-color: #0084af;
-  }
+}
 
 header.motto {
     font-size: 1.25rem;
     font-style: italic;
-  }
+}
 
 
 #menu {
@@ -93,7 +93,8 @@ header.motto {
 }
 
 #menu dt{
-    font-size: 125%;
+    font-size: 1.25rem;
+    font-weight: bold;
     margin-top: 1rem;
 }
 
@@ -106,45 +107,37 @@ header.motto {
     border-radius: 15px;
 }
   
-
-  /* ABOUT SECTION */
-
 #about{
     background-color: #e0e0e0;
+    line-height: 1.5;
 }
 
 #about.container {
     line-height: 1.5;
 }
-
   
-  /* FOOTER */
-
 footer {
     background-color: #3e1305;
+    color: white;
     
 }
+
 footer.container {
     color: white;
 }
-
-  footer a {
-    color: #fff;
-    text-decoration: none;
-  }
 
 footer a {
     color: white;
     text-decoration: none;
 }
 
-footer p{
+footer p {
     margin: 0;
     line-height: 1.25;
 
 }
 
-footer p:last-of_type {
+footer p:last-of-type {
     padding-top: 8px;
 }
 

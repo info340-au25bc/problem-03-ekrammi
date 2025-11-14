@@ -16,7 +16,7 @@ g.contained.small {
     fill: #573d29;
 }
 
-g.contained:nth-of-type(2) > * {
+g.contained:nth-of-type(2) circle, g.contained:nth-of-type(2) rect {
     fill: #c0c0c0;
     stroke: none;
 }
@@ -43,6 +43,6 @@ g.contained:nth-of-type(2) > rect {
     opacity: 1;
 }
 
-svg > path:last-of_type {
+svg > path:last-of-type {
     stroke: none;
 }
